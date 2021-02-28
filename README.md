@@ -1,4 +1,4 @@
-# 15-days-of-Flutter
+# 15 days of Flutter
 ## Day1: Flutter Installation and Setup
 Installation
 Full installation instructions are available on the official website:
