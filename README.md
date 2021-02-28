@@ -3,7 +3,7 @@
 ### Installation
 Full installation instructions are available on the official website:
 
-[​Install Flutter​](https://flutter.dev/docs/get-started/install)
+- [​Install Flutter​](https://flutter.dev/docs/get-started/install)
 
 If you want to build Flutter apps on Android and iOS, you'll need to install the corresponding SDKs, as well as the Android emulator and iOS simulator. The installation guide above explains how to do this.
 
