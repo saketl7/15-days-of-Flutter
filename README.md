@@ -1,9 +1,9 @@
 # 15 days of Flutter
 ## Day1: Flutter Installation and Setup
-Installation
+######Installation
 Full installation instructions are available on the official website:
 
-​Install Flutter​
+[​Install Flutter​](https://flutter.dev/docs/get-started/install)
 If you want to build Flutter apps on Android and iOS, you'll need to install the corresponding SDKs, as well as the Android emulator and iOS simulator. The installation guide above explains how to do this.
 
 Note: You can only develop Flutter apps for iOS on a macOS system. If you're on Windows, you can only build for Android. With that said, you could explore services like macincloud and Remote Mac to build iOS apps remotely.
