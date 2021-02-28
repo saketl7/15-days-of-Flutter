@@ -21,7 +21,7 @@ To make the most of your IDE, check out the documentation for tips on running an
 ### Flutter doctor
 
 Once everything is installed (don't forget to configure your system PATH on Windows or macOS!), you should be able to type flutter doctor on your terminal. And your output should look something like this:
-(https://pbs.twimg.com/media/EvVHzQAVoAIwfbx?format=jpg&name=large)
+[Flutter Doctor](https://pbs.twimg.com/media/EvVHzQAVoAIwfbx?format=jpg&name=large)
 
 
 
