@@ -35,7 +35,8 @@ If you use VSCode, I highly recommend adding some useful extensions. These are m
 - [​Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) (get any feedback about errors as you type: super useful)
 - [​Pubspec assist​](https://marketplace.visualstudio.com/items?itemName=jeroen-meijer.pubspec-assist)
 - [​Todo Tree​](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
-There are many others, but these are the ones I use all the time.
+
+There are [many others](https://medium.com/flutter-community/must-have-vs-code-extensions-for-working-with-flutter-e31a421b9c68), but these are the ones I use all the time.
 
 Congratulations, your Flutter development environment is ready to go!
 
