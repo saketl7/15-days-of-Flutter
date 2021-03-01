@@ -41,4 +41,62 @@ There are [many others](https://medium.com/flutter-community/must-have-vs-code-e
 Congratulations, your Flutter development environment is ready to go!
 
 
-## Day2: Dart Language
+## Day 2: Dart Language
+Flutter apps are built using Dart, which is an easy language to learn.
+
+The official [Dart language tour](https://dart.dev/guides/language/language-tour) is a great place to start **if you're already familiar with other languages** such as JavaScript, Swift, or Kotlin.
+
+You can also check out the guides in the [official documentation](https://dart.dev/guides) to make the most of Dart. These include [codelabs](https://dart.dev/codelabs), guidelines about writing [effective Dart](https://dart.dev/guides/language/effective-dart) code, and much more.
+
+You don't need to read the entire documentation. Rather, you can come back to it as you improve your Dart coding style over time.
+
+[​Dartpad](https://dartpad.dev/) is a free online editor that you can use to experiment with the Dart language, without having to install anything on your machine.
+
+### Null Safety
+Null Safety is a big change to the Dart language.
+
+It's very likely that Null Safety will be be enabled by default in the upcoming Flutter stable release in early 2021. So it's worth getting familiar with how it works (if you haven't already).
+
+The documentation alredy covers everything you need to know about Null Safety:
+
+- [​Overview: Sound null safety​](https://dart.dev/null-safety)
+- [​Migrating to null safety​](https://dart.dev/null-safety/migration-guide)
+- [​Understanding null safety​](https://dart.dev/null-safety/understanding-null-safety)
+Alternatively, you can check out the [Null safety introduction video](https://www.youtube.com/watch?v=iYhOU9AuaFs&feature=youtu.be) from the Flutter team, or watch my in-depth tutorial:
+
+- [​Dart Null Safety: The Ultimate Guide to Non-Nullable Types​](https://codewithandrea.com/videos/dart-null-safety-ultimate-guide-non-nullable-types/)
+
+### Other Dart resources
+If you're looking for a fast-paced tutorial about Dart tips and tricks, I've got you covered:
+
+- [​Top 16 Dart Tips and Tricks Every Flutter Developer Should Know​](https://codewithandrea.com/videos/top-dart-tips-and-tricks-for-flutter-devs/)
+All the resources above are a good way to learn about the Dart language.
+
+You can make the most of the links above if you're already familiar with other programming languages.
+
+But if you're new to programming and Dart is your fist language, I recommend take this [complete Dart course](https://www.udemy.com/course/complete-dart-guide/?couponCode=MAR-21) on Udemy.
+
+## Day 3: Flutter architecture & project setup
+
+
+## Day 4: Flutter widgets + basic & responsive layouts
+
+## Day 5: State management basics
+
+## Day 6: State management & architecture
+
+## Day 7: Navigation
+
+## Day 8: Interactivity & user input
+
+## Day 9: Animations
+
+## Day 10: Local data persistence
+
+## Day 11: Networking
+
+## Day 12: Platform Channels
+
+## Day 13: Testing
+
+## Day 14: Continuous integration & delivery
