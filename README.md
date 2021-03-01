@@ -67,12 +67,10 @@ Alternatively, you can check out the [Null safety introduction video](https://ww
 
 ### Other Dart resources
 If you're looking for a fast-paced tutorial about Dart tips and tricks, I've got you covered:
-
 - [​Top 16 Dart Tips and Tricks Every Flutter Developer Should Know​](https://codewithandrea.com/videos/top-dart-tips-and-tricks-for-flutter-devs/)
+
 All the resources above are a good way to learn about the Dart language.
-
 You can make the most of the links above if you're already familiar with other programming languages.
-
 But if you're new to programming and Dart is your fist language, I recommend take this [complete Dart course](https://www.udemy.com/course/complete-dart-guide/?couponCode=MAR-21) on Udemy.
 
 ## Day 3: Flutter architecture & project setup
