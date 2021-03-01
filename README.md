@@ -58,12 +58,11 @@ Null Safety is a big change to the Dart language.
 It's very likely that Null Safety will be be enabled by default in the upcoming Flutter stable release in early 2021. So it's worth getting familiar with how it works (if you haven't already).
 
 The documentation alredy covers everything you need to know about Null Safety:
-
 - [​Overview: Sound null safety​](https://dart.dev/null-safety)
 - [​Migrating to null safety​](https://dart.dev/null-safety/migration-guide)
 - [​Understanding null safety​](https://dart.dev/null-safety/understanding-null-safety)
-Alternatively, you can check out the [Null safety introduction video](https://www.youtube.com/watch?v=iYhOU9AuaFs&feature=youtu.be) from the Flutter team, or watch my in-depth tutorial:
 
+Alternatively, you can check out the [Null safety introduction video](https://www.youtube.com/watch?v=iYhOU9AuaFs&feature=youtu.be) from the Flutter team, or watch my in-depth tutorial:
 - [​Dart Null Safety: The Ultimate Guide to Non-Nullable Types​](https://codewithandrea.com/videos/dart-null-safety-ultimate-guide-non-nullable-types/)
 
 ### Other Dart resources
