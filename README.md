@@ -74,8 +74,49 @@ You can make the most of the links above if you're already familiar with other p
 But if you're new to programming and Dart is your fist language, I recommend take this [complete Dart course](https://www.udemy.com/course/complete-dart-guide/?couponCode=MAR-21) on Udemy.
 
 ## Day 3: Flutter architecture & project setup
+### Flutter Architecture
+Whether you have made a Flutter app before or not, it's useful to get a high-level overview of the Flutter architecture from a conceptual point of view.
+![Flutter architecture](https://pbs.twimg.com/media/Evf4F0wVoAUx5n2?format=jpg&name=large)
 
+Flutter uses its own rendering engine called Skia. This is written in C/C++ and provides low-level APIs for rendering, text layout, and more. When you write Flutter apps, your code doesn't call directly the Flutter engine APIs. Rather, it uses a set of high-level APIs provided by the Flutter framework.
 
+By design, **Flutter controls every single pixel that is drawn on screen**. The Flutter framework offers a rich set of UI components (called widgets) that closely match the native UI controls on iOS and Android.
+
+### Declarative programming model
+Flutter uses a declarative programming model.
+
+Flutter widgets define their UI by overriding the **build()** method, which is a function that converts state to UI:
+
+**UI = f(state)**
+
+Small, single-purpose widgets are composed together to create more complex, specialized ones that represent your application UI. Hence, the entire application is represented by a so-called widget-tree.
+
+For example, here's what the widget tree looks like for the default Flutter counter app:
+![widget tree](https://pbs.twimg.com/media/Evf4F0-VoAU3Ls_?format=jpg&name=large)
+
+In the upcoming lesson about state management we will talk about how to rebuild the UI when some state changes, and what techniques are available to do so.
+
+But for now this is all the theory you need. And if you want a more in-depth explanation of the Flutter architecture, there is no better place than the official documentation:
+
+- [​Flutter architectural overview​](https://flutter.dev/docs/resources/architectural-overview)
+This is a long read, but worthwhile if you want to understand how Flutter works under the hood.
+
+On to something more practical.
+
+### Project setup
+When you create a new Flutter project, some files and folders will be generated for you.
+![new generated file](https://pbs.twimg.com/media/Evf4F0vUYAIHtcz?format=jpg&name=medium)
+
+The most important file is called pubspec.yaml. This is used to specify your application's dependencies. These resources explain how this file works and how to use it to install packages:
+
+​The pubspec file​
+​Using packages​
+In addition to this, I highly recommend adding an analysis_options.yaml file. This can be used to specify linter rules and enable extra warnings and errors for your project. Here's an in-depth guide about it:
+
+​Getting started: Creating your Flutter project​
+In particular, read the "Managing your lint rules easily" section at the end. This explains how to create a clean and maintainable set of rules that you can tweak in your apps.
+
+You can download an "official" analysis_options.yaml file from here, and also view a list of all the supported rules with explanations.
 ## Day 4: Flutter widgets + basic & responsive layouts
 
 ## Day 5: State management basics
