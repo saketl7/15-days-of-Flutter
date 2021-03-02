@@ -92,7 +92,7 @@ Flutter widgets define their UI by overriding the **build()** method, which is a
 Small, single-purpose widgets are composed together to create more complex, specialized ones that represent your application UI. Hence, the entire application is represented by a so-called widget-tree.
 
 For example, here's what the widget tree looks like for the default Flutter counter app:
-![widget tree](https://pbs.twimg.com/media/Evf4F0-VoAU3Ls_?format=jpg&name=large)
+![widget tree](https://pbs.twimg.com/media/Evf4F0-VoAU3Ls_?format=jpg&name=medium)
 
 In the upcoming lesson about state management we will talk about how to rebuild the UI when some state changes, and what techniques are available to do so.
 
