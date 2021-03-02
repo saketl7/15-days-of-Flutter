@@ -20,7 +20,7 @@ To make the most of your IDE, check out the documentation for tips on running an
 ### Flutter doctor
 
 Once everything is installed (don't forget to configure your system PATH on [Windows](https://flutter.dev/docs/get-started/install/windows#update-your-path) or [macOS](https://flutter.dev/docs/get-started/install/macos#update-your-path)!), you should be able to type flutter doctor on your terminal. And your output should look something like this:
-![Flutter Doctor](https://pbs.twimg.com/media/EvVHzQAVoAIwfbx?format=jpg&name=large)
+![Flutter Doctor](https://pbs.twimg.com/media/EvVHzQAVoAIwfbx?format=jpg&name=small)
 
 If flutter doctor doesn't report any errors, you already have everything you need to get started building apps.
 
@@ -76,6 +76,7 @@ But if you're new to programming and Dart is your fist language, I recommend tak
 ## Day 3: Flutter architecture & project setup
 ### Flutter Architecture
 Whether you have made a Flutter app before or not, it's useful to get a high-level overview of the Flutter architecture from a conceptual point of view.
+
 ![Flutter architecture](https://pbs.twimg.com/media/Evf4F0wVoAUx5n2?format=jpg&name=small)
 
 Flutter uses its own rendering engine called Skia. This is written in C/C++ and provides low-level APIs for rendering, text layout, and more. When you write Flutter apps, your code doesn't call directly the Flutter engine APIs. Rather, it uses a set of high-level APIs provided by the Flutter framework.
