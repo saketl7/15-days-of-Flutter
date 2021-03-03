@@ -122,6 +122,46 @@ In particular, read the "Managing your lint rules easily" section at the end. Th
 
 You can download an "official" analysis_options.yaml file [from here](https://dart-lang.github.io/linter/lints/options/options.html), and also view a [list of all the supported rules with explanations](https://dart-lang.github.io/linter/lints/index.html).
 ## Day 4: Flutter widgets + basic & responsive layouts
+Flutter really shines when it comes to building beautiful UIs.
+
+With Flutter, you build UIs by using widgets and composing them together in a declarative manner. You can think of widgets as UI components that describe what your application looks like.
+
+Flutter offers an extensive set of widgets, closely matching the Material Design specification. The Flutter widget catalog also includes Cupertino widgets, which are high-fidelity replicas of all the UI components found on iOS.
+
+Because Flutter controls every pixel on the screen, you can even create your own widgets to deliver a completely custom experience that delights your users.
+
+So what are some good resources to learn about widgets & layouts?
+
+Flutter layouts
+A good place to start is this official guide about Layouts in Flutter, showing you how to build some common layouts with useful illustrations.
+
+​Flutter Widget of the week: This is truly an amazing video series from the Flutter team. Most videos are 1-to-2 minutes long and help you learn about the most useful widgets. You don't need to watch the entire series at once, but I won't stop you if you do 😀. And sometimes knowing that a widget exists means that you don't have to create one yourself.
+In addition to this, I have also made some video walkthroughs of the most useful layout widgets:
+
+​Flutter Layouts Walkthrough: Row, Column, Stack, Expanded, Padding​
+​Flutter Layouts Walkthrough: PageView, ListView, GridView, Slivers, CustomScrollView​
+And if you want to create more complex layouts with a lot of scrollable elements, my slivers tutorials have you covered:
+
+​Flutter Slivers Overview: SliverAppBar, SliverPersistentHeader​
+​Flutter Slivers Overview: SliverList, SliverGrid, SliverToBoxAdapter, SliverFillRemaining​
+All the links above are enough to build common layouts on mobile.
+
+But sooner or later, you may encounter some layout errors (bottom overflow anyone? 😅). To get past that, I highly recommend this page that explains how constraints work in Flutter:
+
+​Understanding constraints​
+What's good about this is that it includes a list of nearly 30 example layouts, showing you why sometimes things don't work, and how to fix them.
+
+Responsive Layouts
+Once you need to support multiple form factors, you'll need to learn about responsive layouts and how to implement them in Flutter.
+
+For that, I highly recommend this tutorial:
+
+​How to build responsive layout in Flutter​
+This will show you how to use MediaQuery, LayoutBuilder, and other useful widgets for creating responsive UIs.
+
+And while you can build a fully responsive Flutter app just with MediaQuery, LayoutBuilder, and other built-in widgets, there are packages that make this process easier.
+
+One such package is responsive_builder, which makes it easy to set custom screen breakpoints, and manage various form factors with an ergonomic API. This is based on this video series about Flutter responsive UI.
 
 ## Day 5: State management basics
 
