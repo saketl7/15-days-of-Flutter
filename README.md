@@ -164,6 +164,38 @@ And while you can build a fully responsive Flutter app just with MediaQuery, Lay
 One such package is responsive_builder, which makes it easy to set custom screen breakpoints, and manage various form factors with an ergonomic API. This is based on this video series about Flutter responsive UI.
 
 ## Day 5: State management basics
+### State Management
+Onn day 3 we discovered that Flutter is declarative, in that it builds the UI to reflect the current state of your app:
+
+UI = f(state)
+
+This is briefly explained in this page called Start thinking declaratively.
+
+But what is state exactly? The Flutter documentation defines state as:
+
+whatever data you need in order to rebuild your UI at any moment in time
+
+It also introduces a clear distinction between app state and ephemeral (or local) state:
+
+- [​Differentiate between ephemeral state and app state​]()
+As a rule of thumb, you can use setState and the State class every time you're dealing with local state. This keeps things simple.
+
+When it comes to app state, there are multiple approaches and techniques that you can use. Before going any further, I recommend you check this out:
+
+Flutter Widgets 101
+This series covers the basics of state management in Flutter. Make sure you watch and understand this before moving to any of the more complex solutions:
+
+- [​How to Create Stateless Widgets - Flutter Widgets 101 Ep. 1​]()
+- [​How Stateful Widgets Are Used Best - Flutter Widgets 101 Ep. 2​]()
+- [​Inherited Widgets Explained - Flutter Widgets 101 Ep. 3​]()
+- [​When to Use Keys - Flutter Widgets 101 Ep. 4​]()
+
+You can go pretty far and build non-trivial applications with the built-in StatelessWidget, StatefulWidget, and InheritedWidget classes. More importantly, it's critical to understand the foundations of state management before you can move to more complex solutions.
+
+For a comprehensive overview about Flutter's built-in tools for state management, you can also check this:
+
+- [​Flutter State Management Basics and Useful Resources​](https://codewithandrea.com/videos/flutter-state-management-basics/)
+
 
 ## Day 6: State management & architecture
 
