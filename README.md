@@ -198,6 +198,75 @@ For a comprehensive overview about Flutter's built-in tools for state management
 
 
 ## Day 6: State management & architecture
+Once you're feeling confident with the built-in state management capabilities in Flutter, you can start looking at some of the other solutions.
+
+Here I focus on the most stable, well documented, maintained, and supported packages. The ones I used personally and can recommend without hesitation are:
+
+- ​provider​
+- ​flutter_bloc​
+- ​riverpod​
+Other honorable mentions are rxdart, get_it, stacked, mobx, states_rebuilder and redux.
+
+But you know what? You only need one of these, and only after you've covered the basics from day 5.
+
+Provider
+Simply put, Provider = InheritedWidget + Generics. Provider gives you scoped access to things in your widget tree, by type. It is officially endorsed by the Flutter team. It's mature, and you'll find a lot of documentation and Q/A on StackOverflow about it.
+
+For a good conceptual overview of Provider, I recommend my Flutter Provider video series on YouTube.
+
+flutter_bloc
+Just like Provider, flutter_bloc is a very mature and robust solution for state mangement, and has been around for over 2 years.
+
+If you head over to bloclibrary.dev, you'll find the highest-quality documentation. This includes all the most important core concepts, along with tutorials showing how to build real apps, with full source code.
+
+The earlier versions of flutter_bloc were criticized for requiring too much boilerplate code. But since then, the package also includes cubit, a light-weight version of bloc.
+
+The best place to learn Flutter Bloc (along with many important concepts) is this 3-hour free course on YouTube:
+
+- [​The Best Flutter Bloc Complete Course - Visualise, Understand, Learn & Practice Bloc Concepts​]()
+Riverpod
+Riverpod is a rewrite of Provider to make improvements that would be otherwise impossible.
+
+It borrows many concepts from Provider, but is fundamentally different in that it does not depend on Flutter and the widget-tree. Riverpod uses global providers that are referenced by name, not type. This is a big departure from a conceptual point of view.
+
+You can head to riverpod.dev to find extensive documentation about the most important concepts, along with official and 3rd party example apps.
+
+My essential guide to Riverpod covers everything you need to know:
+
+- [​Flutter State Management with Riverpod: The Essential Guide​]()
+Having used Provider, flutter_bloc and Riverpod in my projects, I can say that Riverpod is my favorite. Riverpod allows you to manage state in complex applications in a type-safe way with minimal boilerplate code. It has great support for testing, and works really well when combining providers together.
+
+Ultimately, all these packages help you separate your business logic from the UI code. Here's a complete tutorial showing how to refactor a simple app for better separation of concerns, immutability, and type safety using Freezed& StateNotifier:
+
+- [​Flutter State Management: Going from setState to Freezed & StateNotifier with Provider​]()
+For a direct comparison of Provider, flutter_bloc, and Riverpod, you can check this movie app that I've built using all three packages:
+
+- [​Flutter State Management: Movie App with Provider, Riverpod, flutter_bloc | GitHub​]()
+All these packages are great, but don't let my perspective influence your decision. Many other packages are also very good. If you come from JavaScript and you're familiar with redux, then that may be the right solution for you. After all, tools are only valuable if you know how to use them correctly.
+
+What about Architecture?
+The state management solutions above are tools that you can use to build your apps.
+
+But tools alone are not enough. To build an app, you need to use them as part of a broader application structure or design.
+
+In building Flutter apps over the last 3 years, I've identified three main application layers that are common to most apps:
+
+UI Layer: this is where we put our widgets
+Domain layer: this is where we define our data models and business logic
+Service Layer: this contains wrappers for networking/backend code (e.g. REST APIs, authentication, Cloud Firestore etc.)
+For a more complete overview about app architecture and my approach to building complex Flutter apps, see this tutorial:
+
+- [​Starter Architecture for Flutter & Firebase Apps​]()
+This includes a GitHub repo with a full example app built with Flutter & Firebase, using Riverpod.
+
+State management & architecture is a broad topic and it can be challenging to "get it right" when building complex apps. I'll be covering this topic more in detail in my upcoming tutorials.
+
+For now my advice is to see how far you can get with the built-in solutions, and then try one of solutions above. They all have a learning curve, but the package authors are very supportive and keen to help, so don't be afraid to reach out and ask questions.
+
+One more thing
+Check out the flutter_architecture_samples repo by Brian Egan and others. This shows how to build a simple TODO app using nearly all of the state mangement solutions in Flutter.
+
+This is a great way to learn about their differences.
 
 ## Day 7: Navigation
 Basic navigation
