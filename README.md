@@ -200,6 +200,26 @@ For a comprehensive overview about Flutter's built-in tools for state management
 ## Day 6: State management & architecture
 
 ## Day 7: Navigation
+Basic navigation
+And as long as you don't want to do anything too complex, Flutter provides a simple API for navigating to a new screen and back:
+
+​Navigate to a new screen and back​
+In very simple terms, navigation is performed by:
+
+Getting a Navigator object for the current context (e.g. Navigator.of(context)).
+Calling push() to add a new route to the navigation stack. This is most commonly done with a MaterialPageRoute that builds the widget/page you want to show.
+When done, calling pop() to return to the previous route.
+When using the basic push() and pop() methods, it is also very easy to pass arguments to the new route, and return a value when the route is dismissed.
+
+But when you have a lot of screens in your app, it is more appropriate to define a set of named routes and keep them in the same place:
+
+​Navigate with named routes​
+As the article above shows, this is done by defining your application's routes inside your MaterialApp widget (or alternatively, using onGenerateRoute).
+
+However, this approach makes it harder to pass typed arguments to your routes. This is because the Navigator.pushNamed() method takes an arguments parameter of type Object.
+
+For example, if you have a route named /movie-details and a MovieDetails argument, you can pass this directly when calling pushNamed():
+
 
 ## Day 8: Interactivity & user input
 
