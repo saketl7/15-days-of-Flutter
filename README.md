@@ -178,6 +178,7 @@ whatever data you need in order to rebuild your UI at any moment in time
 It also introduces a clear distinction between app state and ephemeral (or local) state:
 
 - [​Differentiate between ephemeral state and app state​]()
+
 As a rule of thumb, you can use setState and the State class every time you're dealing with local state. This keeps things simple.
 
 When it comes to app state, there are multiple approaches and techniques that you can use. Before going any further, I recommend you check this out:
@@ -202,9 +203,10 @@ Once you're feeling confident with the built-in state management capabilities in
 
 Here I focus on the most stable, well documented, maintained, and supported packages. The ones I used personally and can recommend without hesitation are:
 
-- ​provider​
-- ​flutter_bloc​
-- ​riverpod​
+- [​provider​]()
+- [​flutter_bloc​]()
+- [​riverpod​]()
+
 Other honorable mentions are rxdart, get_it, stacked, mobx, states_rebuilder and redux.
 
 But you know what? You only need one of these, and only after you've covered the basics from day 5.
@@ -224,7 +226,8 @@ The earlier versions of flutter_bloc were criticized for requiring too much boil
 The best place to learn Flutter Bloc (along with many important concepts) is this 3-hour free course on YouTube:
 
 - [​The Best Flutter Bloc Complete Course - Visualise, Understand, Learn & Practice Bloc Concepts​]()
-Riverpod
+
+### Riverpod
 Riverpod is a rewrite of Provider to make improvements that would be otherwise impossible.
 
 It borrows many concepts from Provider, but is fundamentally different in that it does not depend on Flutter and the widget-tree. Riverpod uses global providers that are referenced by name, not type. This is a big departure from a conceptual point of view.
@@ -234,14 +237,17 @@ You can head to riverpod.dev to find extensive documentation about the most impo
 My essential guide to Riverpod covers everything you need to know:
 
 - [​Flutter State Management with Riverpod: The Essential Guide​]()
+
 Having used Provider, flutter_bloc and Riverpod in my projects, I can say that Riverpod is my favorite. Riverpod allows you to manage state in complex applications in a type-safe way with minimal boilerplate code. It has great support for testing, and works really well when combining providers together.
 
 Ultimately, all these packages help you separate your business logic from the UI code. Here's a complete tutorial showing how to refactor a simple app for better separation of concerns, immutability, and type safety using Freezed& StateNotifier:
 
 - [​Flutter State Management: Going from setState to Freezed & StateNotifier with Provider​]()
+
 For a direct comparison of Provider, flutter_bloc, and Riverpod, you can check this movie app that I've built using all three packages:
 
 - [​Flutter State Management: Movie App with Provider, Riverpod, flutter_bloc | GitHub​]()
+
 All these packages are great, but don't let my perspective influence your decision. Many other packages are also very good. If you come from JavaScript and you're familiar with redux, then that may be the right solution for you. After all, tools are only valuable if you know how to use them correctly.
 
 What about Architecture?
@@ -257,6 +263,7 @@ Service Layer: this contains wrappers for networking/backend code (e.g. REST API
 For a more complete overview about app architecture and my approach to building complex Flutter apps, see this tutorial:
 
 - [​Starter Architecture for Flutter & Firebase Apps​]()
+
 This includes a GitHub repo with a full example app built with Flutter & Firebase, using Riverpod.
 
 State management & architecture is a broad topic and it can be challenging to "get it right" when building complex apps. I'll be covering this topic more in detail in my upcoming tutorials.
