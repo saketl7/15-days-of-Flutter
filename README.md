@@ -171,6 +171,10 @@ And while you can build a fully responsive Flutter app just with MediaQuery, Lay
 One such package is [responsive_builder](https://pub.dev/packages/responsive_builder), which makes it easy to set custom screen breakpoints, and manage various form factors with an ergonomic API. This is based on this [video series](https://www.youtube.com/playlist?list=PLQQBiNtFxeyJbOkeKBe_JG36gm1V2629H) about Flutter responsive UI.
 
 ## Day 5: State management basics
+With over 40 packages available, state management is likely the hottest topic in Flutter.
+Here's the full list on Flutter Gems:
+- [​Flutter Gems - State Management](https://fluttergems.dev/state-management/)
+
 ### State Management
 Onn day 3 we discovered that Flutter is declarative, in that it builds the UI to reflect the current state of your app:
 
