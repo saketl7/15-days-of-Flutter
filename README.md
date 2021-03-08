@@ -311,6 +311,29 @@ For example, if you have a route named /movie-details and a MovieDetails argumen
 ## Day 8: Interactivity & user input
 
 ## Day 9: Animations
+Flutter offers some well-designed animation APIs that make it easy to implement complex animations, and make your apps stand out.
+
+The Flutter team has produced an extensive set of video tutorials, articles and samples that you can browse.
+
+You can learn all about Flutter animations here:
+
+- [​Introduction to animations​]()
+
+I recommend you watch every one of the linked tutorials, as they explain everything in detail. [Various codelabs]() are also available, so you can get some practice working with animations and learn what's possible.
+
+There's also a section about [other resources](), which points to additional samples, recipes and documentation that you can browse.
+
+But there is more.
+
+The Flutter team has created an official [animations]() package that you can use to add pre-canned animations to your apps.
+
+You can use the [simple_animations]() package to more easily create custom animations with less boilerplate code. This includes additional features such as [Stateless animations]() and [MultiTween]().
+
+And if you want to go beyond writing your animations with code, you can use the [Rive app](). This is a complete editor that you can use to create sophisticated interactions. These can then be loaded into your Flutter projects using the [rive package]() (tutorial [here]()).
+
+Also, if you want to know what Flutter's animation system is capable of, I recommend this talk:
+
+- [​Implementing complex UI with Flutter - Marcin Szałek | Flutter Europe]
 
 ## Day 10: Local data persistence
 
