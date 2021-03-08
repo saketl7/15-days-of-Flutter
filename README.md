@@ -392,7 +392,7 @@ And if you want to go beyond writing your animations with code, you can use the 
 
 Also, if you want to know what Flutter's animation system is capable of, I recommend this talk:
 
-- [​Implementing complex UI with Flutter - Marcin Szałek | Flutter Europe]
+- [​Implementing complex UI with Flutter - Marcin Szałek | Flutter Europe]()
 
 ## Day 10: Local data persistence
 
