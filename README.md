@@ -309,6 +309,58 @@ For example, if you have a route named /movie-details and a MovieDetails argumen
 
 
 ## Day 8: Interactivity & user input
+All mobile apps need to react to user input. And Flutter provides various ways of making apps interactive.
+
+For example, a common requirement is to let the user fill in some text data inside a form.
+
+An email & password sign-in flow may look simple from the outside, but there is a lot of detail going on:
+
+- input text validation
+- handling the selected focus and dismissing the keyboard when needed
+- getting and setting the text fields' data and updating the form state
+- text field appearance (decoration, placeholder text, error hints etc.)
+
+You can use a *TextField* widget to let the user enter some text in your app. Because Flutter is declarative, you need to pass a TextEditingController as an argument to TextField and use it to control the text inside it. This is typically done inside a StatefulWidget subclass that is the parent of your TextField(s).
+
+Though if you have more than one text field in your page, you'll need a TextEditingController for each TextField, and this can lead to a lot of boilerplate.
+
+One way to make your life easier is to use the built-in Form and FormTextField widgets, and this tutorial explains how to do so:
+
+​Flutter - How To Use Form and TextFormField​
+By the way, FormTextField uses TextField under the hood. TextField is a very customizable widget with many useful properties.
+
+The best place to learn how to use all these input widgets is the Flutter forms cookbook, which includes various interactive examples:
+
+​Forms | Flutter Cookbook​
+TextField is quite powerful, and you can learn all about it here:
+
+​A Deep Dive Into Flutter TextField​
+Too much boilerplate
+Working with TextEditingController can add a lot of boilerplate to your apps. flutter_hooks provides an elegant solution for this, and comes with a useTextEditingController API that you can use to streamline your text editing code.
+
+You can see an example of how to do this in my BMI calculation app on GitHub.
+
+More than just text fields
+Text input is just one of many ways users can interact with our app.
+
+Other common input widgets are date and time pickers, checkboxes, radio boxes, sliders, and switches.
+
+These are all listed as part of the Material Components widgets catalog.
+
+And if you're targeting iOS, you can also use the corresponding Cupertino (iOS-style) widgets.
+
+Gestures
+All the widgets we discussed above are visual UI components that you can show on screen. But Flutter also gives you some rich APIs for detecting user gestures.
+
+For a good overview about how to listen for, and respond to, gestures in Flutter, see this page:
+
+​Taps, drags, and other gestures​
+And if you want to take a deep dive, this article has you covered:
+
+​Flutter Deep Dive: Gestures​
+
+
+
 
 ## Day 9: Animations
 Flutter offers some well-designed animation APIs that make it easy to implement complex animations, and make your apps stand out.
