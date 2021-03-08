@@ -41,6 +41,7 @@ There are [many others](https://medium.com/flutter-community/must-have-vs-code-e
 Congratulations, your Flutter development environment is ready to go!
 
 
+
 ## Day 2: Dart Language
 Flutter apps are built using Dart, which is an easy language to learn.
 
@@ -72,6 +73,8 @@ If you're looking for a fast-paced tutorial about Dart tips and tricks, I've got
 All the resources above are a good way to learn about the Dart language.
 You can make the most of the links above if you're already familiar with other programming languages.
 But if you're new to programming and Dart is your fist language, I recommend take this [complete Dart course](https://www.udemy.com/course/complete-dart-guide/?couponCode=MAR-21) on Udemy.
+
+
 
 ## Day 3: Flutter architecture & project setup
 ### Flutter Architecture
@@ -320,27 +323,30 @@ An email & password sign-in flow may look simple from the outside, but there is 
 - getting and setting the text fields' data and updating the form state
 - text field appearance (decoration, placeholder text, error hints etc.)
 
-You can use a *TextField* widget to let the user enter some text in your app. Because Flutter is declarative, you need to pass a TextEditingController as an argument to TextField and use it to control the text inside it. This is typically done inside a StatefulWidget subclass that is the parent of your TextField(s).
+You can use a **TextField** widget to let the user enter some text in your app. Because Flutter is declarative, you need to pass a TextEditingController as an argument to TextField and use it to control the text inside it. This is typically done inside a StatefulWidget subclass that is the parent of your TextField(s).
 
 Though if you have more than one text field in your page, you'll need a TextEditingController for each TextField, and this can lead to a lot of boilerplate.
 
 One way to make your life easier is to use the built-in Form and FormTextField widgets, and this tutorial explains how to do so:
 
-​Flutter - How To Use Form and TextFormField​
+- [​Flutter - How To Use Form and TextFormField​]()
+
 By the way, FormTextField uses TextField under the hood. TextField is a very customizable widget with many useful properties.
 
 The best place to learn how to use all these input widgets is the Flutter forms cookbook, which includes various interactive examples:
 
-​Forms | Flutter Cookbook​
+- [​Forms | Flutter Cookbook​]()
+
 TextField is quite powerful, and you can learn all about it here:
 
-​A Deep Dive Into Flutter TextField​
-Too much boilerplate
+- [​A Deep Dive Into Flutter TextField​]()
+
+### Too much boilerplate
 Working with TextEditingController can add a lot of boilerplate to your apps. flutter_hooks provides an elegant solution for this, and comes with a useTextEditingController API that you can use to streamline your text editing code.
 
 You can see an example of how to do this in my BMI calculation app on GitHub.
 
-More than just text fields
+### More than just text fields
 Text input is just one of many ways users can interact with our app.
 
 Other common input widgets are date and time pickers, checkboxes, radio boxes, sliders, and switches.
@@ -349,15 +355,16 @@ These are all listed as part of the Material Components widgets catalog.
 
 And if you're targeting iOS, you can also use the corresponding Cupertino (iOS-style) widgets.
 
-Gestures
+### Gestures
 All the widgets we discussed above are visual UI components that you can show on screen. But Flutter also gives you some rich APIs for detecting user gestures.
 
 For a good overview about how to listen for, and respond to, gestures in Flutter, see this page:
 
-​Taps, drags, and other gestures​
+- [​Taps, drags, and other gestures​]
+
 And if you want to take a deep dive, this article has you covered:
 
-​Flutter Deep Dive: Gestures​
+- [​Flutter Deep Dive: Gestures​]
 
 
 
