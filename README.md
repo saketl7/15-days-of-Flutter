@@ -441,7 +441,37 @@ But many apps need access to user-generated content that is saved remotely in th
 I also recommend watching this tutorial by the Flutter team, which covers local data persistence in detail:
 
 ​Keeping it local: Managing a Flutter app's data
+
 ## Day 11: Networking
+If you want your apps to read data from public APIs (here's a list with thousands of APIs), or communicate with your own custom backend, you'll need to write some networking code.
+
+Networking basics
+Simple apps that need to talk to a REST API can use the Dart http package. This offers a Future-based API for making network requests, and it works across multiple platforms since it's a pure Dart package.
+
+Most REST APIs will respond with data in JSON format. This can be decoded into unstructured maps of key-value pairs that are not type-safe.
+
+When reading JSON data, it's best practice to de-serialize it into strongly-typed model classes. Likewise, you can serialize your models back to JSON data that can be sent over the network. You can find more about working with JSON on this page.
+
+Code Generation
+Doing all this by hand is ok if you have very few simple model classes. But if you're working with a lot of endpoints returning complex data, code generation may be a better option, and the json_annotation package helps with that.
+
+Along with that, you can consider using the freezed package.
+
+If you need a good intro to code generation and the freezed package, this is a good tutorial:
+
+​Flutter Code Generation - What You Need To Know​
+Other networking packages
+The http package is easy to use and works well for simple apps.
+
+But for apps with more complex requirements, the dio package may be more appropriate.
+
+Dio supports more advanced features such as sending form data, request cancellation, file downloading, and much more.
+
+So if you need any of the above, dio is a better choice than http.
+
+But even then, you still need to deal with JSON serialization. Wouldn't it be nice if there was a package that can auto-generate all the networking and serialization code for you?
+
+Luckily, flutter_data was created for this purpose. This can auto-generate REST clients for all your models with minimal boilerplate code, and even has integrations for the most popular state management packages. So check out the documentation for more info. Though as you can see on pub.dev, Flutter Data has many dependencies and it looks like the documentation is out of date.
 
 ## Day 12: Platform Channels
 
