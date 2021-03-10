@@ -395,7 +395,52 @@ Also, if you want to know what Flutter's animation system is capable of, I recom
 - [​Implementing complex UI with Flutter - Marcin Szałek | Flutter Europe]()
 
 ## Day 10: Local data persistence
+Data persistence is an important requirement in many different apps.
 
+So what is data persistence and why is it important?
+
+Suppose you're writing an app where the user can track his/her weight every day. It would be bad if the user entered some data, and this was lost after the app was backgrounded or killed by the operating system.
+
+By saving this data locally to disk, you can retrieve it the next time the app is started, and present it again.
+
+In Flutter, there are various ways to save data locally:
+
+Using a key-value store
+You can use Shared Preferences to store non-sensitive user data. This may include things like app preferences and settings (such as light/dark mode), or even a local flag to verify if the user has completed the app onboarding.
+
+Another popular key-value store is Hive, which is used and loved by many developers. Hive is very fast, however it appears to have a lot of open issues and some devs have been voicing concerns about it on Reddit.
+
+Using a secure key-value store
+Sensitive data such as the user's email and address should not be saved in an unencrypted form.
+
+In this scenario it's best to use a secure key-value store such as flutter_secure_storage. This has an API that is very similar to shared preferences, but uses the underlying Keychain on iOS, and KeyStore on Android.
+
+Using a relational-database
+If you need to store relational data you can use sqflite, the SQLite plugin for Flutter.
+
+This provides some asynchronous APIs for reading from and writing to a local database using the SQL language.
+
+Though sqlite is not type-safe, and this can lead to bugs that are hard to diagnose.
+
+To solve this problem the Moor package was created. Moor is a type-safe reactive persistence library for Flutter and Dart, built on top of sqflite. Moor has extensive documentation covering everything you need to know. And you can also check out this video for a complete overview.
+
+Reading and writing files to disk
+Key-value stores and relational databases are great, but sometimes you just want to write data directly to files on disk.
+
+This is done by combining the path_provider plugin with the dart:io library.
+
+Use case: the image_picker plugin offers a Future-based API that you can use to take a picture using the native camera. When you use this, the picture is saved on disk and returned as a File object that you can read with dart:io or show inside a widget.
+
+Local vs remote data persistence
+So far we have only talked about local data persistence.
+
+This works fine as long as you don't need to sync data across multiple devices. With local persistence, users will lose their data if they move to a new device without making a backup.
+
+But many apps need access to user-generated content that is saved remotely in the cloud. In this case you'll need to create your own backend, or use a Backend-as-a-Service such as Firebase. Firebase offers things like authentication, a real-time persistent document store, and many useful features. I won't cover Firebase as part of this email course, but you can take my Flutter & Firebase course on Udemy to learn how to build a complete app using Firebase authentication and Cloud Firestore.
+
+I also recommend watching this tutorial by the Flutter team, which covers local data persistence in detail:
+
+​Keeping it local: Managing a Flutter app's data
 ## Day 11: Networking
 
 ## Day 12: Platform Channels
