@@ -474,6 +474,24 @@ But even then, you still need to deal with JSON serialization. Wouldn't it be ni
 Luckily, flutter_data was created for this purpose. This can auto-generate REST clients for all your models with minimal boilerplate code, and even has integrations for the most popular state management packages. So check out the documentation for more info. Though as you can see on pub.dev, Flutter Data has many dependencies and it looks like the documentation is out of date.
 
 ## Day 12: Platform Channels
+"Single codebase, multiple platforms" is one of the winning points of Flutter.
+
+But sometimes we need to use platform-specific APIs. A few examples: camera input, geolocation, connectivity, notifications.
+
+By now there are many packages that can do the heavy-lifting for you, so that you don't have to write platform-specific code directly.
+
+But it's still very useful (and interesting!) to understand how Flutter apps communicate with the underlying platform APIs.
+
+A good place to start is this page that shows how to use platform channels to read the battery level on iOS and Android:
+
+​Writing custom platform-specific code​
+There is also a more detailed guide, which explains everything you need to know (including how to stream data through channels, and how to test your platform channels code):
+
+​Flutter Platform Channels​
+To write platform-specific code, you'll need to become familiar with Swift (on iOS) and Kotlin (on Android). This is a good thing because it makes you a better developer who is comfortable with more than just one language or framework.
+
+You don't need to reach expert-level knowledge of other languages. But knowing just enough to find your way around is a valuable skill. And since many of the existing plugins are far from perfect, sooner or later you may find yourself working with platform-specific APIs.
+
 
 ## Day 13: Testing
 
