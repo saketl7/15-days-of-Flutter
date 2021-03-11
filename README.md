@@ -487,7 +487,7 @@ A good place to start is this page that shows how to use platform channels to re
 
 There is also a more detailed guide, which explains everything you need to know (including how to **stream** data through channels, and how to **test** your platform channels code):
 - [​Flutter Platform Channels​](https://medium.com/flutter/flutter-platform-channels-ce7f540a104e)
-- 
+
 To write platform-specific code, you'll need to become familiar with Swift (on iOS) and Kotlin (on Android). This is a **good** thing because it makes you a better developer who is comfortable with more than just one language or framework.
 
 You don't need to reach expert-level knowledge of other languages. But knowing just enough to find your way around is a valuable skill. And since many of the existing plugins are [far from perfect](https://www.reddit.com/r/FlutterDev/comments/jrt8hu/am_i_the_only_one_frustrated_by_the_status_of/), sooner or later you may find yourself working with platform-specific APIs.
