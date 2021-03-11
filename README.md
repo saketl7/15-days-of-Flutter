@@ -440,7 +440,7 @@ But many apps need access to user-generated content that is saved remotely in th
 
 I also recommend watching this tutorial by the Flutter team, which covers local data persistence in detail:
 
-​Keeping it local: Managing a Flutter app's data
+- [​Keeping it local: Managing a Flutter app's data]()
 
 ## Day 11: Networking
 If you want your apps to read data from public APIs (here's a list with thousands of APIs), or communicate with your own custom backend, you'll need to write some networking code.
@@ -483,14 +483,14 @@ By now there are many packages that can do the heavy-lifting for you, so that yo
 But it's still very useful (and interesting!) to understand how Flutter apps communicate with the underlying platform APIs.
 
 A good place to start is this page that shows how to use platform channels to read the battery level on iOS and Android:
+- [​Writing custom platform-specific code​]()
 
-​Writing custom platform-specific code​
 There is also a more detailed guide, which explains everything you need to know (including how to stream data through channels, and how to test your platform channels code):
-
-​Flutter Platform Channels​
+- [​Flutter Platform Channels​]()
+- 
 To write platform-specific code, you'll need to become familiar with Swift (on iOS) and Kotlin (on Android). This is a good thing because it makes you a better developer who is comfortable with more than just one language or framework.
 
-You don't need to reach expert-level knowledge of other languages. But knowing just enough to find your way around is a valuable skill. And since many of the existing plugins are far from perfect, sooner or later you may find yourself working with platform-specific APIs.
+You don't need to reach expert-level knowledge of other languages. But knowing just enough to find your way around is a valuable skill. And since many of the existing plugins are [far from perfect](), sooner or later you may find yourself working with platform-specific APIs.
 
 
 ## Day 13: Testing
