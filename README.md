@@ -495,6 +495,29 @@ You don't need to reach expert-level knowledge of other languages. But knowing j
 
 ## Day 13: Testing
 
+Testing is paramount if you're serious about building robust, production-ready apps.
+
+The main point of testing is to verify that our code is bug-free and behaves as expected.
+
+While manual tests can be carried out by trying all your application's features, they are very error prone and time consuming. If bugs are not caught early on, they can occur in production, leading to a poor user experience.
+
+Automated tests solve this problem as they are fast to run, and they can run often. They are also a good safety netthat can help you find out if something breaks when you refactor your code.
+
+In Flutter, there are three types of tests: unit tests, widget tests and integration tests. This page on the official documentation offers a quick overview:
+
+​Testing Flutter apps​
+For a complete tutorial about writing tests with some examples, I recommend this video:
+
+​Flutter Testing For Beginners - The Ultimate Guide​
+This covers unit, widget, and integration tests, and also explains how to use the mockito package. This is useful when testing individual parts of your application in isolation from the rest of the code (e.g. networking).
+
+Alongside unit, widget and integration test, a technique known as golden tests is sometimes used.
+
+Golden tests allow you to compare a screen of your app with some reference image file, to ensure that each pixel in the UI matches exactly with the golden version.
+
+This technique is quite useful if you want to verify that you don't get UI regressions as you make changes. It is explained well in this article:
+​Flutter: Golden tests — compare Widgets with Snapshots.
+
 ## Day 14: Continuous integration & delivery
 
 ## Day 15: 
