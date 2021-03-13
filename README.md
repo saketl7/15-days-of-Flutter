@@ -519,5 +519,59 @@ This technique is quite useful if you want to verify that you don't get UI regre
 ​Flutter: Golden tests — compare Widgets with Snapshots.
 
 ## Day 14: Continuous integration & delivery
+The most popular CI systems for Flutter are Codemagic and Github Actions. These systems let you automate your tests by setting up workflows that run when you want.
+
+For example, you could use them to run your entire test suite when you push a new branch or open/update a pull request. This is quite useful as you can ensure that all the tests are green before merging changes to the main branch.
+
+You can also use CI tools to build release versions of your apps and deliver them to the App Store or Play Store.
+
+Or if you want to distribute internal builds to your beta testers, you can do that too.
+
+So how are Codemagic and GitHub Actions different?
+
+Codemagic
+The main strength of Codemagic is that it's easy to use. You can setup and customize your workflows in a completely visual way, and it has support for custom build steps and various 3rd party integrations. For example, you can configure it to send a Slack notification when your builds succeed or fail.
+
+This article offers a good overview of Codemagic:
+
+​7 reasons why Codemagic should be your CI/CD provider for your Flutter apps in 2020​
+Codemagic offers 500 build minutes for free every month. See this pricing page for more information.
+
+GitHub actions
+Unlike Codemagic, GitHub Actions does not offer a UI interface. Instead, you write custom build workflows in yaml format, and you can use pre-built actions that are freely avaiable in the GitHub marketplace.
+
+For an example of how GitHub workflows look like, you can check the documentation for the Flutter action:
+
+​Flutter action​
+For a detailed introduction to GitHub Actions, you can follow this guide:
+
+​Introduction to GitHub Actions​
+Actions are quite powerful but they come with a steeper learning curve. If you make a typo or mistake in your workflow file, you can only find out what went wrong by inspecting the build log once the build has completed.
+
+In terms of pricing, GitHub Actions offers 2000 minutes per month on the Free plan, though macOS minutes are 10x more expensive than the basic Linux minutes. For a full overview of GitHub Actions pricing, see this page:
+
+​About billing for GitHub Actions​
+Fastlane
+​Fastlane is an open-source tool that makes it easy to automate beta deployments and releases for your iOS and Android apps.
+
+Fastlane is particularly useful when it comes to managing and updating the code signing certificates (notably a painful thing to do on iOS), and signing release apps.
+
+As such, many people use Fastlane in their Flutter build workflows, either with GitHub Actions or Codemagic.
+
+The official Flutter documentation offers a good overview about continuous delivery with fastlane:
+
+​Continuous delivery with Flutter​
+It can take a bit of time to setup Fastlane the first time, but once it's up and running it can save a lot of time in the future.
+
+Releasing to the app stores
+Once your app is ready, it's time to release it to your users.
+
+The official documentation includes some important steps that you need to follow in preparation for this:
+
+​Build and release an Android app​
+​Build and release an iOS app​
+If your app uses Firebase, you may also find this release checklist useful:
+
+​Firebase Launch Checklist
 
 ## Day 15: 
