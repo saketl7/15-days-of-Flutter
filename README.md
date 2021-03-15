@@ -197,13 +197,13 @@ As a rule of thumb, you can use setState and the State class every time you're d
 
 When it comes to app state, there are multiple approaches and techniques that you can use. Before going any further, I recommend you check this out:
 
-Flutter Widgets 101
+### Flutter Widgets 101
 This series covers the basics of state management in Flutter. Make sure you watch and understand this before moving to any of the more complex solutions:
 
-- [​How to Create Stateless Widgets - Flutter Widgets 101 Ep. 1​]()
-- [​How Stateful Widgets Are Used Best - Flutter Widgets 101 Ep. 2​]()
-- [​Inherited Widgets Explained - Flutter Widgets 101 Ep. 3​]()
-- [​When to Use Keys - Flutter Widgets 101 Ep. 4​]()
+- [​How to Create Stateless Widgets - Flutter Widgets 101 Ep. 1​](https://www.youtube.com/watch?v=wE7khGHVkYY)
+- [​How Stateful Widgets Are Used Best - Flutter Widgets 101 Ep. 2​](https://www.youtube.com/watch?v=AqCMFXEmf3w)
+- [​Inherited Widgets Explained - Flutter Widgets 101 Ep. 3​](https://www.youtube.com/watch?v=Zbm3hjPjQMk)
+- [​When to Use Keys - Flutter Widgets 101 Ep. 4​](https://www.youtube.com/watch?v=kn0EOS-ZiIc)
 
 You can go pretty far and build non-trivial applications with the built-in StatelessWidget, StatefulWidget, and InheritedWidget classes. More importantly, it's critical to understand the foundations of state management before you can move to more complex solutions.
 
