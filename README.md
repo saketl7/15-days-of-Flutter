@@ -183,15 +183,15 @@ Onn day 3 we discovered that Flutter is declarative, in that it builds the UI to
 
 UI = f(state)
 
-This is briefly explained in this page called Start thinking declaratively.
+This is briefly explained in this page called [Start thinking declaratively](https://flutter.dev/docs/development/data-and-backend/state-mgmt/declarative).
 
 But what is state exactly? The Flutter documentation defines state as:
 
 whatever data you need in order to rebuild your UI at any moment in time
 
-It also introduces a clear distinction between app state and ephemeral (or local) state:
+It also introduces a clear distinction between **app state** and **ephemeral (or local) state**:
 
-- [​Differentiate between ephemeral state and app state​]()
+- [​Differentiate between ephemeral state and app state​](https://flutter.dev/docs/development/data-and-backend/state-mgmt/ephemeral-vs-app)
 
 As a rule of thumb, you can use setState and the State class every time you're dealing with local state. This keeps things simple.
 
