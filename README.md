@@ -213,13 +213,13 @@ For a comprehensive overview about Flutter's built-in tools for state management
 
 
 ## Day 6: State management & architecture
-Once you're feeling confident with the built-in state management capabilities in Flutter, you can start looking at some of the other solutions.
+Once you're feeling **confident** with the built-in state management capabilities in Flutter, you can start looking at some of the other solutions.
 
-Here I focus on the most stable, well documented, maintained, and supported packages. The ones I used personally and can recommend without hesitation are:
+Here I focus on the most **stable, well documented, maintained, and supported packages. The ones I used personally and can recommend without hesitation are:
 
-- [​provider​]()
-- [​flutter_bloc​]()
-- [​riverpod​]()
+- [​provider​](https://pub.dev/packages/provider)
+- [​flutter_bloc​](https://pub.dev/packages/flutter_bloc)
+- [​riverpod​](https://pub.dev/packages/riverpod)
 
 Other honorable mentions are rxdart, get_it, stacked, mobx, states_rebuilder and redux.
 
