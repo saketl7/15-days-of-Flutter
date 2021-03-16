@@ -215,31 +215,31 @@ For a comprehensive overview about Flutter's built-in tools for state management
 ## Day 6: State management & architecture
 Once you're feeling **confident** with the built-in state management capabilities in Flutter, you can start looking at some of the other solutions.
 
-Here I focus on the most **stable, well documented, maintained, and supported packages. The ones I used personally and can recommend without hesitation are:
+Here I focus on the most **stable, well documented, maintained**, and **supported** packages. The ones I used personally and can recommend without hesitation are:
 
 - [​provider​](https://pub.dev/packages/provider)
 - [​flutter_bloc​](https://pub.dev/packages/flutter_bloc)
 - [​riverpod​](https://pub.dev/packages/riverpod)
 
-Other honorable mentions are rxdart, get_it, stacked, mobx, states_rebuilder and redux.
+Other honorable mentions are `rxdart`, `get_it`, `stacked`, `mobx`, `states_rebuilder` and `redux`.
 
-But you know what? You only need one of these, and only after you've covered the basics from day 5.
+But you know what? **You only need one of these**, and only after you've covered the basics from day 5.
 
-Provider
-Simply put, Provider = InheritedWidget + Generics. Provider gives you scoped access to things in your widget tree, by type. It is officially endorsed by the Flutter team. It's mature, and you'll find a lot of documentation and Q/A on StackOverflow about it.
+### Provider
+Simply put, **Provider = InheritedWidget + Generics**. Provider gives you scoped access to things in your widget tree, **by type**. It is officially endorsed by the Flutter team. It's mature, and you'll find a lot of documentation and Q/A on StackOverflow about it.
 
-For a good conceptual overview of Provider, I recommend my Flutter Provider video series on YouTube.
+For a good conceptual overview of Provider, I recommend [Flutter Provider video series](https://www.youtube.com/playlist?list=PLNnAcB93JKV-IarNvMKJv85nmr5nyZis8) on YouTube.
 
-flutter_bloc
+### flutter_bloc
 Just like Provider, flutter_bloc is a very mature and robust solution for state mangement, and has been around for over 2 years.
 
-If you head over to bloclibrary.dev, you'll find the highest-quality documentation. This includes all the most important core concepts, along with tutorials showing how to build real apps, with full source code.
+If you head over to [bloclibrary.dev](https://bloclibrary.dev/#/), you'll find the **highest-quality documentation**. This includes all the most important core concepts, along with tutorials showing how to build real apps, with full source code.
 
 The earlier versions of flutter_bloc were criticized for requiring too much boilerplate code. But since then, the package also includes cubit, a light-weight version of bloc.
 
 The best place to learn Flutter Bloc (along with many important concepts) is this 3-hour free course on YouTube:
 
-- [​The Best Flutter Bloc Complete Course - Visualise, Understand, Learn & Practice Bloc Concepts​]()
+- [​The Best Flutter Bloc Complete Course - Visualise, Understand, Learn & Practice Bloc Concepts​](https://www.youtube.com/watch?v=THCkkQ-V1-8)
 
 ### Riverpod
 Riverpod is a rewrite of Provider to make improvements that would be otherwise impossible.
