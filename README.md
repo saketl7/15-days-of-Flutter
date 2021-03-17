@@ -254,17 +254,17 @@ My essential guide to Riverpod covers everything you need to know:
 
 Having used Provider, flutter_bloc and Riverpod in my projects, I can say that Riverpod is my favorite. Riverpod allows you to manage state in **complex** applications in a **type-safe** way with **minimal boilerplate code**. It has great support for testing, and works really well when combining providers together.
 
-Ultimately, all these packages help you **separate your business logic from the UI code**. Here's a complete tutorial showing how to refactor a simple app for better separation of concerns, immutability, and type safety using Freezed& StateNotifier:
+Ultimately, all these packages help you **separate your business logic from the UI code**. Here's a complete tutorial showing how to refactor a simple app for better separation of concerns, immutability, and type safety using [Freezed]() & [StateNotifier]():
 
 - [​Flutter State Management: Going from setState to Freezed & StateNotifier with Provider​](https://codewithandrea.com/videos/flutter-state-management-setstate-freezed-state-notifier-provider/)
 
-For a direct comparison of Provider, flutter_bloc, and Riverpod, you can check this movie app that I've built using all three packages:
+For a direct comparison of **Provider**, **flutter_bloc**, and **Riverpod**, you can check this movie app that I've built using all three packages:
 
 - [​Flutter State Management: Movie App with Provider, Riverpod, flutter_bloc | GitHub​](https://github.com/bizz84/movie_app_state_management_flutter)
 
 All these packages are great, but don't let my perspective influence your decision. Many other packages are also very good. If you come from JavaScript and you're familiar with redux, then that may be the right solution for you. After all, tools are only valuable if you know how to use them correctly.
 
-What about Architecture?
+### What about Architecture?
 The state management solutions above are tools that you can use to build your apps.
 
 But tools alone are not enough. To build an app, you need to use them as part of a broader application structure or design.
