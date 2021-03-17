@@ -252,7 +252,7 @@ My essential guide to Riverpod covers everything you need to know:
 
 - [​Flutter State Management with Riverpod: The Essential Guide​](https://codewithandrea.com/videos/flutter-state-management-riverpod/)
 
-Having used Provider, flutter_bloc and Riverpod in my projects, I can say that Riverpod is my favorite. Riverpod allows you to manage state in complex applications in a type-safe way with minimal boilerplate code. It has great support for testing, and works really well when combining providers together.
+Having used Provider, flutter_bloc and Riverpod in my projects, I can say that Riverpod is my favorite. Riverpod allows you to manage state in **complex** applications in a **type-safe** way with **minimal boilerplate code**. It has great support for testing, and works really well when combining providers together.
 
 Ultimately, all these packages help you separate your business logic from the UI code. Here's a complete tutorial showing how to refactor a simple app for better separation of concerns, immutability, and type safety using Freezed& StateNotifier:
 
