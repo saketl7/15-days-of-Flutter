@@ -244,9 +244,9 @@ The best place to learn Flutter Bloc (along with many important concepts) is thi
 ### Riverpod
 Riverpod is a rewrite of Provider to make improvements that would be otherwise impossible.
 
-It borrows many concepts from Provider, but is fundamentally different in that it does not depend on Flutter and the widget-tree. Riverpod uses global providers that are referenced by name, not type. This is a big departure from a conceptual point of view.
+It borrows many concepts from Provider, but is fundamentally different in that it does not depend on Flutter and the widget-tree. Riverpod uses **global providers** that are **referenced by name, not type**. This is a big departure from a conceptual point of view.
 
-You can head to riverpod.dev to find extensive documentation about the most important concepts, along with official and 3rd party example apps.
+You can head to [riverpod.dev](https://riverpod.dev/) to find extensive documentation about the most important concepts, along with official and 3rd party example apps.
 
 My essential guide to Riverpod covers everything you need to know:
 
