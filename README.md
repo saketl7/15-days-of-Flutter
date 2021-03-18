@@ -265,26 +265,27 @@ For a direct comparison of **Provider**, **flutter_bloc**, and **Riverpod**, you
 All these packages are great, but don't let my perspective influence your decision. Many other packages are also very good. If you come from JavaScript and you're familiar with redux, then that may be the right solution for you. After all, tools are only valuable if you know how to use them correctly.
 
 ### What about Architecture?
-The state management solutions above are tools that you can use to build your apps.
+The state management solutions above are **tools** that you can use to build your apps.
 
-But tools alone are not enough. To build an app, you need to use them as part of a broader application structure or design.
+But tools alone are not enough. To build an app, you need to use them as part of a broader application **structure** or **design**.
 
 In building Flutter apps over the last 3 years, I've identified three main application layers that are common to most apps:
 
-UI Layer: this is where we put our widgets
-Domain layer: this is where we define our data models and business logic
-Service Layer: this contains wrappers for networking/backend code (e.g. REST APIs, authentication, Cloud Firestore etc.)
+- **UI Layer**: this is where we put our widgets
+- **Domain layer**: this is where we define our data models and business logic
+- **Service Layer**: this contains wrappers for networking/backend code (e.g. REST APIs, authentication, Cloud Firestore etc.)
+
 For a more complete overview about app architecture and my approach to building complex Flutter apps, see this tutorial:
 
 - [​Starter Architecture for Flutter & Firebase Apps​]()
 
-This includes a GitHub repo with a full example app built with Flutter & Firebase, using Riverpod.
+This includes a [GitHub repo]() with a full example app built with Flutter & Firebase, using Riverpod.
 
 State management & architecture is a broad topic and it can be challenging to "get it right" when building complex apps. I'll be covering this topic more in detail in my upcoming tutorials.
 
 For now my advice is to see how far you can get with the built-in solutions, and then try one of solutions above. They all have a learning curve, but the package authors are very supportive and keen to help, so don't be afraid to reach out and ask questions.
 
-One more thing
+### One more thing
 Check out the flutter_architecture_samples repo by Brian Egan and others. This shows how to build a simple TODO app using nearly all of the state mangement solutions in Flutter.
 
 This is a great way to learn about their differences.
