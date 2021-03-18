@@ -286,7 +286,7 @@ State management & architecture is a broad topic and it can be challenging to "g
 For now my advice is to see how far you can get with the built-in solutions, and then try one of solutions above. They all have a learning curve, but the package authors are very supportive and keen to help, so don't be afraid to reach out and ask questions.
 
 ### One more thing
-Check out the flutter_architecture_samples repo by Brian Egan and others. This shows how to build a simple TODO app using nearly all of the state mangement solutions in Flutter.
+Check out the [flutter_architecture_samples](https://github.com/brianegan/flutter_architecture_samples) repo by Brian Egan and [others](https://github.com/brianegan/flutter_architecture_samples#contributors). This shows how to build a simple TODO app using nearly all of the state mangement solutions in Flutter.
 
 This is a great way to learn about their differences.
 
