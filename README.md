@@ -277,9 +277,9 @@ In building Flutter apps over the last 3 years, I've identified three main appli
 
 For a more complete overview about app architecture and my approach to building complex Flutter apps, see this tutorial:
 
-- [​Starter Architecture for Flutter & Firebase Apps​]()
+- [​Starter Architecture for Flutter & Firebase Apps​](https://codewithandrea.com/videos/starter-architecture-flutter-firebase/)
 
-This includes a [GitHub repo]() with a full example app built with Flutter & Firebase, using Riverpod.
+This includes a [GitHub repo](https://github.com/bizz84/starter_architecture_flutter_firebase) with a full example app built with Flutter & Firebase, using Riverpod.
 
 State management & architecture is a broad topic and it can be challenging to "get it right" when building complex apps. I'll be covering this topic more in detail in my upcoming tutorials.
 
