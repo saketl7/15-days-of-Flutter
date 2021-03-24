@@ -315,6 +315,17 @@ However, this approach makes it harder to pass typed arguments to your routes. T
 For example, if you have a route named /movie-details and a MovieDetails argument, you can pass this directly when calling pushNamed():
 
 
+But you'll need some boilerplate code to cast the route settings.arguments value back to MovieDetails when generating the route:
+
+
+This is all explained in detail here:
+
+​Pass arguments to a named route​
+If you have two or more arguments, you can store them in a new class (more boilerplate) or a map (not type-safe).
+
+To overcome some of the inherent issues with passing arguments to named routes, packages such as auto_routehave been created. These packages leverage code-generation to provide a more type-safe and user-friendly navigation API.
+
+
 ## Day 8: Interactivity & user input
 All mobile apps need to react to user input. And Flutter provides various ways of making apps interactive.
 
