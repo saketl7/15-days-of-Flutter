@@ -22,7 +22,7 @@ To make the most of your IDE, check out the documentation for tips on running an
 Once everything is installed (don't forget to configure your system PATH on [Windows](https://flutter.dev/docs/get-started/install/windows#update-your-path) or [macOS](https://flutter.dev/docs/get-started/install/macos#update-your-path)!), you should be able to type flutter doctor on your terminal. And your output should look something like this:
 ![Flutter Doctor](https://pbs.twimg.com/media/EvVHzQAVoAIwfbx?format=jpg&name=small)
 
-If flutter doctor doesn't report any errors, you already have everything you need to get started building apps.
+If flutter doctor doesn't report any errors, you already have everything you need to get started building apps
 
 Time for a quick test drive. This page shows you how to create a new Flutter project and run it:
 - [​Test drive​](https://flutter.dev/docs/get-started/test-drive?tab=androidstudio)
