@@ -320,7 +320,7 @@ But you'll need some boilerplate code to cast the route **settings.arguments** v
 
 This is all explained in detail here:
 
-​Pass arguments to a named route​[https://flutter.dev/docs/cookbook/navigation/navigate-with-arguments]
+- [​Pass arguments to a named route​](https://flutter.dev/docs/cookbook/navigation/navigate-with-arguments)
 If you have two or more arguments, you can store them in a new class (more boilerplate) or a map (not type-safe).
 
 To overcome some of the inherent issues with passing arguments to named routes, packages such as auto_routehave been created. These packages leverage code-generation to provide a more type-safe and user-friendly navigation API.
