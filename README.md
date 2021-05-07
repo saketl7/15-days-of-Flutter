@@ -315,7 +315,7 @@ However, this approach makes it harder to pass **typed** arguments to your route
 For example, if you have a route named **/movie-details** and a **MovieDetails** argument, you can pass this directly when calling **pushNamed()**:
 
 
-But you'll need some boilerplate code to cast the route **settings.arguments** value back to MovieDetails when generating the route:
+But you'll need some boilerplate code to cast the route **settings.arguments** value back to **MovieDetails** when generating the route:
 
 
 This is all explained in detail here:
