@@ -590,3 +590,24 @@ If your app uses Firebase, you may also find this release checklist useful:
 ​Firebase Launch Checklist
 
 ## Day 15: 
+Flutter Architecture Samples
+This GitHub repo is an implementation of a reference TODO app in Flutter, using the most popular state management techniques:
+
+​Flutter Architecture Samples​
+Why a TODO app? Quoting the official README:
+
+The app in this project aims to be simple enough that you can understand it quickly, but complex enough to showcase difficult design decisions and testing scenarios.
+
+I have come back multiple times to this project myself, to learn about architecture and state management, and I consider it a good foundation for any Flutter developer.
+
+Awesome Flutter
+Chances are you have come across this already. This GitHub repo contains a wealth of articles, videos, packages, and additional resources that you can use in your Flutter journey:
+
+​Awesome Flutter​
+Flutter Gems
+Flutter Gems is a website comprising 1500+ useful and popular packages:
+
+​Flutter Gems​
+Think of it as a good alternative to pub.dev, in that all packages are categorized by type.
+
+I hope you'll find all these extra resources useful.
