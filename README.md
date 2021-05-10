@@ -313,7 +313,7 @@ As the article above shows, this is done by defining your application's routes i
 However, this approach makes it harder to pass **typed** arguments to your routes. This is because the **Navigator.pushNamed()** method takes an **arguments** parameter of type **Object**.
 
 For example, if you have a route named **/movie-details** and a **MovieDetails** argument, you can pass this directly when calling **pushNamed()**:
-
+https://twitter.com/SaketLakhotia17/status/1368248535083229187/photo/1
 
 But you'll need some boilerplate code to cast the route **settings.arguments** value back to **MovieDetails** when generating the route:
 
