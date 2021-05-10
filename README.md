@@ -316,7 +316,7 @@ For example, if you have a route named **/movie-details** and a **MovieDetails**
 https://twitter.com/SaketLakhotia17/status/1368248535083229187/photo/1
 
 But you'll need some boilerplate code to cast the route **settings.arguments** value back to **MovieDetails** when generating the route:
-
+https://twitter.com/SaketLakhotia17/status/1368248535083229187/photo/2
 
 This is all explained in detail here:
 
