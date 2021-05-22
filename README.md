@@ -360,7 +360,7 @@ TextField is quite powerful, and you can learn all about it here:
 - [​A Deep Dive Into Flutter TextField​](https://medium.com/flutter-community/a-deep-dive-into-flutter-textfields-f0e676aaab7a)
 
 ### Too much boilerplate
-Working with TextEditingController can add a lot of boilerplate to your apps. [flutter_hooks](https://pub.dev/packages/flutter_hooks) provides an elegant solution for this, and comes with a useTextEditingController API that you can use to streamline your text editing code.
+Working with TextEditingController can add a lot of boilerplate to your apps. [flutter_hooks](https://pub.dev/packages/flutter_hooks) provides an elegant solution for this, and comes with a [useTextEditingController](https://pub.dev/documentation/flutter_hooks/latest/flutter_hooks/useTextEditingController-constant.html) API that you can use to streamline your text editing code.
 
 You can see an example of how to do this in my BMI calculation app on GitHub.
 
