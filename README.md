@@ -362,7 +362,7 @@ TextField is quite powerful, and you can learn all about it here:
 ### Too much boilerplate
 Working with TextEditingController can add a lot of boilerplate to your apps. [flutter_hooks](https://pub.dev/packages/flutter_hooks) provides an elegant solution for this, and comes with a [useTextEditingController](https://pub.dev/documentation/flutter_hooks/latest/flutter_hooks/useTextEditingController-constant.html) API that you can use to streamline your text editing code.
 
-You can see an example of how to do this in my BMI calculation app on GitHub.
+You can see an example of how to do this in my [BMI calculation app on GitHub](https://github.com/saketlakhotia17/bmi_calculator_app_flutter).
 
 ### More than just text fields
 Text input is just one of many ways users can interact with our app.
