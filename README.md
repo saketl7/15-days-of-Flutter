@@ -357,7 +357,7 @@ The best place to learn how to use all these input widgets is the Flutter forms 
 
 TextField is quite powerful, and you can learn all about it here:
 
-- [​A Deep Dive Into Flutter TextField​]()
+- [​A Deep Dive Into Flutter TextField​](https://medium.com/flutter-community/a-deep-dive-into-flutter-textfields-f0e676aaab7a)
 
 ### Too much boilerplate
 Working with TextEditingController can add a lot of boilerplate to your apps. flutter_hooks provides an elegant solution for this, and comes with a useTextEditingController API that you can use to streamline your text editing code.
