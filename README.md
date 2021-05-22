@@ -1,7 +1,7 @@
 # 15 days of Flutter
 ## Day 1: Flutter Installation and Setup
 ### Installation
-Full installation instructions are available on the official website
+Full installation instructions are available on the official website:
 
 - [​Install Flutter​](https://flutter.dev/docs/get-started/install)
 
