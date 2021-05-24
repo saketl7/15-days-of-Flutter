@@ -369,7 +369,7 @@ Text input is just one of many ways users can interact with our app.
 
 Other common input widgets are date and time pickers, checkboxes, radio boxes, sliders, and switches.
 
-These are all listed as part of the Material Components widgets catalog.
+These are all listed as part of the [Material Components widgets](https://flutter.dev/docs/development/ui/widgets/material#Input%20and%20selections) catalog.
 
 And if you're targeting iOS, you can also use the corresponding Cupertino (iOS-style) widgets.
 
