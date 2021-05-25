@@ -334,6 +334,8 @@ All mobile apps need to react to user input. And Flutter provides various ways o
 
 For example, a common requirement is to let the user fill in some text data inside a form.
 
+https://pbs.twimg.com/media/Ev5UPMxUYAA4P9-?format=jpg&name=small
+
 An email & password sign-in flow may look simple from the outside, but there is a lot of detail going on:
 
 - input text validation
