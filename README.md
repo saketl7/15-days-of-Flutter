@@ -384,7 +384,7 @@ For a good overview about how to listen for, and respond to, gestures in Flutter
 
 And if you want to take a deep dive, this article has you covered:
 
-- [​Flutter Deep Dive: Gestures​]()
+- [​Flutter Deep Dive: Gestures​](https://medium.com/flutter-community/flutter-deep-dive-gestures-c16203b3434f)
 
 
 
