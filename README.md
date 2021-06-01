@@ -380,11 +380,11 @@ All the widgets we discussed above are visual UI components that you can show on
 
 For a good overview about how to listen for, and respond to, gestures in Flutter, see this page:
 
-- [​Taps, drags, and other gestures​]
+- [​Taps, drags, and other gestures​](https://flutter.dev/docs/development/ui/advanced/gestures)
 
 And if you want to take a deep dive, this article has you covered:
 
-- [​Flutter Deep Dive: Gestures​]
+- [​Flutter Deep Dive: Gestures​]()
 
 
 
