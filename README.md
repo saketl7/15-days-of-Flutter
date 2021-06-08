@@ -400,7 +400,7 @@ You can learn all about Flutter animations here:
 
 I recommend you watch every one of the linked tutorials, as they explain everything in detail. [Various codelabs](https://flutter.dev/docs/development/ui/animations#codelabs-tutorials-and-articles) are also available, so you can get some practice working with animations and learn what's possible.
 
-There's also a section about [other resources](), which points to additional samples, recipes and documentation that you can browse.
+There's also a section about [other resources](https://flutter.dev/docs/development/ui/animations#other-resources), which points to additional samples, recipes and documentation that you can browse.
 
 But there is more.
 
