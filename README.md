@@ -404,7 +404,7 @@ There's also a section about [other resources](https://flutter.dev/docs/developm
 
 But there is more.
 
-The Flutter team has created an official [animations]() package that you can use to add pre-canned animations to your apps.
+The Flutter team has created an official [animations](https://pub.dev/packages/animations) package that you can use to add pre-canned animations to your apps.
 
 You can use the [simple_animations]() package to more easily create custom animations with less boilerplate code. This includes additional features such as [Stateless animations]() and [MultiTween]().
 
