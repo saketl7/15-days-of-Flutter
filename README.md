@@ -406,7 +406,7 @@ But there is more.
 
 The Flutter team has created an official [animations](https://pub.dev/packages/animations) package that you can use to add pre-canned animations to your apps.
 
-You can use the [simple_animations]() package to more easily create custom animations with less boilerplate code. This includes additional features such as [Stateless animations]() and [MultiTween]().
+You can use the [simple_animations](https://pub.dev/packages/simple_animations) package to more easily create custom animations with less boilerplate code. This includes additional features such as [Stateless animations]() and [MultiTween]().
 
 And if you want to go beyond writing your animations with code, you can use the [Rive app](). This is a complete editor that you can use to create sophisticated interactions. These can then be loaded into your Flutter projects using the [rive package]() (tutorial [here]()).
 
