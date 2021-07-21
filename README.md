@@ -616,3 +616,6 @@ Flutter Gems is a website comprising 1500+ useful and popular packages:
 Think of it as a good alternative to pub.dev, in that all packages are categorized by type.
 
 I hope you'll find all these extra resources useful.
+
+Reference:
+https://courses.codewithandrea.com/courses/1330803/lectures/30539584
